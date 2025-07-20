@@ -1,0 +1,33 @@
+body {
+      font-family: 'Caveat', cursive;
+      background: linear-gradient(to right, #fceabb, #f8b500);
+      margin: 0;
+      padding: 0;
+    }
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 1rem;
+    }
+    .card {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      border: none;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card-title {
+      font-size: 1.5rem;
+    }
+    .btn-primary {
+      background-color: #f8b500;
+      border-color: #f8b500;
+      font-weight: bold;
+    }
+    .btn-primary:hover {
+      background-color: #e09e00;
+      border-color: #e09e00;
+    }
